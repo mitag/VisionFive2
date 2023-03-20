@@ -672,3 +672,106 @@ Debian GNU/Linux bookworm/sid vfive2-4 hvc0
 
 vfive2-4 login: 
 Debian GNU/Linux bookworm/sid vfive2-4 ttyS0
+
+vfive2-4 login: [   34.484858] mipi_0p9: disabling
+[   40.054464] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 400000Hz, actual 399193HZ div = 248)
+[   40.297621] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 100000000Hz, actual 99000000HZ div = 1)
+[   52.405321] mmc0: cache flush error -110
+[   52.624411] mmc_host mmc0: Bus speed (slot 0) = 198000000Hz (slot req 400000Hz, actual 399193HZ div = 248)
+[   54.136729] mmc0: tried to HW reset card, got error -110
+[   54.142093] mmcblk0: recovery failed!
+[   54.145897] blk_update_request: I/O error, dev mmcblk0, sector 2321376 op 0x1:(WRITE) flags 0x800 phys_seg 3 prio class 0
+[   54.157129] Aborting journal on device mmcblk0p4-8.
+[   54.164594] EXT4-fs error (device mmcblk0p4): ext4_journal_check_start:83: comm systemd-journal: Detected aborted journal
+[   54.172669] mmcblk0: recovery failed!
+[   54.179324] blk_update_request: I/O error, dev mmcblk0, sector 2318336 op 0x1:(WRITE) flags 0x20800 phys_seg 1 prio class 0
+[   54.190472] Buffer I/O error on dev mmcblk0p4, logical block 262144, lost sync page write
+[   54.198667] JBD2: Error -5 detected when updating journal superblock for mmcblk0p4-8.
+[   54.216911] mmcblk0: recovery failed!
+[   54.220578] blk_update_request: I/O error, dev mmcblk0, sector 221184 op 0x1:(WRITE) flags 0x23800 phys_seg 1 prio class 0
+[   54.231648] Buffer I/O error on dev mmcblk0p4, logical block 0, lost sync page write
+[   54.239531] EXT4-fs (mmcblk0p4): I/O error while writing superblock
+[   54.245851] EXT4-fs (mmcblk0p4): Remounting filesystem read-only
+[   58.416492] mmcblk0: recovery failed!
+[   58.420267] blk_update_request: I/O error, dev mmcblk0, sector 221192 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   58.431605] Buffer I/O error on dev mmcblk0p4, logical block 1, lost async page write
+[   58.449277] mmcblk0: recovery failed!
+[   58.452983] blk_update_request: I/O error, dev mmcblk0, sector 223320 op 0x1:(WRITE) flags 0x103000 phys_seg 2 prio class 0
+[   58.464138] Buffer I/O error on dev mmcblk0p4, logical block 267, lost async page write
+[   58.472162] Buffer I/O error on dev mmcblk0p4, logical block 268, lost async page write
+[   58.489946] mmcblk0: recovery failed!
+[   58.493641] blk_update_request: I/O error, dev mmcblk0, sector 223352 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   58.504798] Buffer I/O error on dev mmcblk0p4, logical block 271, lost async page write
+[   58.522432] mmcblk0: recovery failed!
+[   58.526143] blk_update_request: I/O error, dev mmcblk0, sector 223488 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   58.537298] Buffer I/O error on dev mmcblk0p4, logical block 288, lost async page write
+[   58.555078] mmcblk0: recovery failed!
+[   58.558760] blk_update_request: I/O error, dev mmcblk0, sector 223552 op 0x1:(WRITE) flags 0x103000 phys_seg 4 prio class 0
+[   58.569920] Buffer I/O error on dev mmcblk0p4, logical block 296, lost async page write
+[   58.577943] Buffer I/O error on dev mmcblk0p4, logical block 297, lost async page write
+[   58.585966] Buffer I/O error on dev mmcblk0p4, logical block 298, lost async page write
+[   58.603610] mmcblk0: recovery failed!
+[   58.607300] blk_update_request: I/O error, dev mmcblk0, sector 223608 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   58.628226] mmcblk0: recovery failed!
+[   58.631932] blk_update_request: I/O error, dev mmcblk0, sector 223760 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   58.652853] mmcblk0: recovery failed!
+[   58.667104] mmcblk0: recovery failed!
+[   58.681367] mmcblk0: recovery failed!
+[   58.695599] mmcblk0: recovery failed!
+[   58.709935] mmcblk0: recovery failed!
+[   58.724180] mmcblk0: recovery failed!
+[   58.738478] mmcblk0: recovery failed!
+[   58.752809] mmcblk0: recovery failed!
+[   58.767069] mmcblk0: recovery failed!
+[   58.781352] mmcblk0: recovery failed!
+[   58.795728] mmcblk0: recovery failed!
+[   58.809922] mmcblk0: recovery failed!
+[   58.824215] mmcblk0: recovery failed!
+[   58.838599] mmcblk0: recovery failed!
+[   58.852796] mmcblk0: recovery failed!
+[   58.867110] mmcblk0: recovery failed!
+[   58.881448] mmcblk0: recovery failed!
+[   58.895696] mmcblk0: recovery failed!
+[   58.909968] mmcblk0: recovery failed!
+[   58.924302] mmcblk0: recovery failed!
+[   58.938543] mmcblk0: recovery failed!
+[   58.952812] mmcblk0: recovery failed!
+[   58.967184] mmcblk0: recovery failed!
+[   58.981378] mmcblk0: recovery failed!
+[   58.995686] mmcblk0: recovery failed!
+[   59.010022] mmcblk0: recovery failed!
+[   59.024217] mmcblk0: recovery failed!
+[   59.038488] mmcblk0: recovery failed!
+[   59.052819] mmcblk0: recovery failed!
+[   59.067079] mmcblk0: recovery failed!
+[   59.081334] mmcblk0: recovery failed!
+[   59.095706] mmcblk0: recovery failed!
+[   59.109900] mmcblk0: recovery failed!
+[   59.124148] mmcblk0: recovery failed!
+[   59.138526] mmcblk0: recovery failed!
+[   59.152718] mmcblk0: recovery failed!
+[   59.156479] print_req_error: 35 callbacks suppressed
+[   59.156493] blk_update_request: I/O error, dev mmcblk0, sector 4415488 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   59.182453] mmcblk0: recovery failed!
+[   59.186206] blk_update_request: I/O error, dev mmcblk0, sector 4415616 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   59.197487] buffer_io_error: 50 callbacks suppressed
+[   59.197501] Buffer I/O error on dev mmcblk0p4, logical block 524304, lost async page write
+[   59.220413] mmcblk0: recovery failed!
+[   59.224090] blk_update_request: I/O error, dev mmcblk0, sector 4415744 op 0x1:(WRITE) flags 0x103000 phys_seg 2 prio class 0
+[   59.234503] mmcblk0: recovery failed!
+[   59.235332] Buffer I/O error on dev mmcblk0p4, logical block 524320, lost async page write
+[   59.247282] Buffer I/O error on dev mmcblk0p4, logical block 524321, lost async page write
+[   59.255615] blk_update_request: I/O error, dev mmcblk0, sector 4677648 op 0x1:(WRITE) flags 0x103000 phys_seg 1 prio class 0
+[   59.266874] Buffer I/O error on dev mmcblk0p4, logical block 557058, lost async page write
+[  172.271745] mmc0: cache flush error -110
+[  172.718977] mmc0: tried to HW reset card, got error -110
+[  172.724409] mmcblk0: recovery failed!
+[  172.728221] blk_update_request: I/O error, dev mmcblk0, sector 1540072 op 0x0:(READ) flags 0x80700 phys_seg 4 prio class 0
+[  172.750250] mmcblk0: recovery failed!
+[  172.753988] blk_update_request: I/O error, dev mmcblk0, sector 1540072 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+[  293.514518] mmcblk0: recovery failed!
+[  293.518227] blk_update_request: I/O error, dev mmcblk0, sector 1540072 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+[  414.264491] mmcblk0: recovery failed!
+[  414.268268] blk_update_request: I/O error, dev mmcblk0, sector 1540072 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+[  535.013142] mmcblk0: recovery failed!
+[  535.016927] blk_update_request: I/O error, dev mmcblk0, sector 1540072 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
