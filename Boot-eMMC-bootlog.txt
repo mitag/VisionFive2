@@ -1,19 +1,4 @@
-Welcome to minicom 2.7.1
-
-OPTIONS: I18n 
-Compiled on Aug 13 2017, 15:25:34.
-Port /dev/ttyUSB0, 14:14:24
-
-Press CTRL-A Z for help on special keys
-
-dwmci_s: Response Timeout.
-BOOT fail,Error is 0xffffffff
-dwmci_s: Response Timeout.
-BOOT fail,Error is 0xffffffff
-dwmci_s: Response Timeout.
-BOOT fail,Error is 0xffffffff
-dwmci_s: Response Timeout.
-BOOT fail,Error is 0xffffffff
+...
 ÿdwmci_s: Response Timeout.
 BOOT fail,Error is 0xffffffff
 dwmci_s: Response Timeout.
